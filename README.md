@@ -8,10 +8,9 @@ The algorithm was first introduced in:
 
 ```bibtex
   @inproceedings{DBLP:conf/cp/KadiogluS09,
-  author    = {Serdar Kadioglu and
-               Meinolf Sellmann},
+  author    = {Serdar Kadioglu and Meinolf Sellmann},
   title     = {Dialectic Search},
-  booktitle = {Principles and Practice of Constraint Programming - {CP} 2009, 15th
+  booktitle = {Principles and Practice of Constraint Programming - {CP} 2009, 15th 
                International Conference, {CP} 2009, Lisbon, Portugal, September 20-24,
                2009, Proceedings},
   series    = {Lecture Notes in Computer Science},
