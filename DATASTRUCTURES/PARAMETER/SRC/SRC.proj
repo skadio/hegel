@@ -1,0 +1,118 @@
+struct (
+	"BuildDir" : "/homes10/info-fa2/parrot_daten/software/PARAMETER/SRC",
+	"BuildSupport" : true,
+	"BuildSupportPlatforms" : "All",
+	"CreateLinks" : true,
+	"DisplayName" : "SRC",
+	"FileCount" : 3,
+	"FileSet" : array (
+		struct (
+			"FileName" : "/homes10/info-fa2/parrot_daten/software/PARAMETER/SRC/Makefile",
+			"FileType" : "Make"
+		),
+		struct (
+			"FileName" : "/homes10/info-fa2/parrot_daten/software/PARAMETER/SRC/SRC.proj",
+			"FileType" : "Project"
+		),
+		struct (
+			"FileName" : "/homes10/info-fa2/parrot_daten/software/PARAMETER/SRC/parameter.cpp",
+			"FileType" : "C++ Implementation"
+		)
+	),
+	"FileTypes" : struct (
+		"ASCII-Documentation" : struct (
+			"BuildTool" : "",
+			"Language" : "",
+			"Signatures" : "*.txt:README*:readme*:Readme*:ReadMe*",
+			"SubType" : "ASCII",
+			"Type" : "Documentation"
+		),
+		"Assembler Implementation" : struct (
+			"BuildTool" : "",
+			"Language" : "GNUAssembler",
+			"Signatures" : "*.asm:*.s:*.Asm",
+			"SubType" : "Assembler-Type",
+			"Type" : "Implementation"
+		),
+		"C Implementation" : struct (
+			"BuildTool" : "C Compiler",
+			"Language" : "ANSI C/C++",
+			"Signatures" : "*.c",
+			"SubType" : "C-Type",
+			"Type" : "Implementation"
+		),
+		"C++ Implementation" : struct (
+			"BuildTool" : "C++ Compiler",
+			"Language" : "ANSI C/C++",
+			"Signatures" : "*.C:*.cc:*.CC:*.cpp:*.CPP:*.cxx:*.CXX",
+			"SubType" : "C++-Type",
+			"Type" : "Implementation"
+		),
+		"HTML-Documentation" : struct (
+			"BuildTool" : "",
+			"Language" : "",
+			"Signatures" : "*.htm:*.html",
+			"SubType" : "HTML",
+			"Type" : "Documentation"
+		),
+		"Header" : struct (
+			"BuildTool" : "",
+			"Language" : "ANSI C/C++",
+			"Signatures" : "*.h:*.H:*.hh:*.HH:*.hpp:*.HPP:*.hxx:*.HXX:*.ci",
+			"SubType" : "Interface",
+			"Type" : "Interface"
+		),
+		"Image" : struct (
+			"BuildTool" : "",
+			"Language" : "",
+			"Signatures" : "*.png:*.gif:*.image:*.im:*.jpg:*.jpeg:*.bmp:*.ico",
+			"SubType" : "Image",
+			"Type" : "Other"
+		),
+		"Make" : struct (
+			"BuildTool" : "",
+			"Language" : "",
+			"Signatures" : "Makefile:makefile:*.mk:*.mak:*.MAK:MAKEFILE:*.cron",
+			"SubType" : "Make",
+			"Type" : "Make"
+		),
+		"Project" : struct (
+			"BuildTool" : "",
+			"Language" : "",
+			"Signatures" : "*.prj:*.proj:*.shared",
+			"SubType" : "Project",
+			"Type" : "Project"
+		),
+		"ShellScript" : struct (
+			"BuildTool" : "",
+			"Language" : "ShellScript",
+			"Signatures" : "*.sh:*.csh",
+			"SubType" : "ShellScript-Type",
+			"Type" : "Script"
+		)
+	),
+	"FileTypesOrder" : array (
+		"Project",
+		"C++ Implementation",
+		"Header",
+		"Make",
+		"ShellScript",
+		"ASCII-Documentation",
+		"Assembler Implementation",
+		"C Implementation",
+		"HTML-Documentation",
+		"Image"
+	),
+	"GenerateDir" : "/homes10/info-fa2/parrot_daten/software/PARAMETER/SRC/.sniffdir",
+	"Release" : "V4.0",
+	"Targets" : struct (
+		"Objects" : struct (
+			"BuildTool" : "None",
+			"PassedToSuperproject" : true
+		),
+		"Received" : struct (
+			"BuildTool" : "None",
+			"PassedToSuperproject" : true
+		)
+	)
+)
