@@ -1,6 +1,6 @@
 
-#ifndef SCP_H
-#define SCP_H
+#ifndef HEGEL_H
+#define HEGEL_H
 
 #include <iostream>
 #include <math.h>
@@ -38,7 +38,7 @@ int chooseDist(float* dis, int n)
 	return x;
 }
 
-class SCP
+class Hegel
 {
 	//instance data
 	int n,m;         //numbers sets and items
@@ -807,13 +807,13 @@ class SCP
 
 	public:
 
-		SCP(int _n, int _m, float* _c, int** _set, int* _setCard) : n(_n), m(_m), c(_c), set(_set), setCard(_setCard), selection(_n), complement(_n), best(_n)
+		Hegel(int _n, int _m, float* _c, int** _set, int* _setCard) : n(_n), m(_m), c(_c), set(_set), setCard(_setCard), selection(_n), complement(_n), best(_n)
 		{
 			alloc();
 			init();
 		}
  
-		~SCP(void)
+		~Hegel(void)
 		{
 			free();
 		}
@@ -832,7 +832,7 @@ class SCP
 			}
 		}
 		
-		float dialektic(double &timeBest, double time_limit)
+		float dialectic(double &timeBest, double time_limit)
 		{
 			int i,j;
 			
@@ -1078,19 +1078,17 @@ class SCP
 				}
 			}
 			
-
-		        // +1 ekle columnlara 
-		        cout<<"Number of selected columns: "<< best.card << endl;
-		        cout<<"Selected Columns: " << flush;
-		        for(int i=0;i<best.card;i++)
-			   cout<<best.list[i] + 1 <<" " << flush;
-		        cout<<endl;
+            cout<<"Number of selected columns: "<< best.card << endl;
+            cout<<"Selected Columns: " << flush;
+            for(int i=0;i<best.card;i++)
+            cout<<best.list[i] + 1 <<" " << flush;
+            cout<<endl;
 			return bestVal;
 		}
 		
 float hegel(void)
 {
-			//compute initial cover
+	//compute initial cover
 	float* dist=new float[numberOfHeuristics];
 	for (int i=0; i<numberOfHeuristics; i++)
 		dist[i]=0.;
@@ -1126,7 +1124,6 @@ float hegel(void)
 				
 		moveTo(bSet);
 		cout<<"Ilk set secildi "<<bestVal<<endl;
-// 				print();
 				
 		int noIm=0;
 		while (noIm<500)
