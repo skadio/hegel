@@ -20,7 +20,7 @@ The algorithm was first introduced in:
   year      = {2009},
   url       = {https://doi.org/10.1007/978-3-642-04244-7\_39},
   doi       = {10.1007/978-3-642-04244-7\_39}
-}
+  }
 ```
 
 The exact code from that paper will never be released due to Brown University's policies. This version was created by Serdar Kadioglu after his doctorate thesis was completed and he was no longer a student of Brown. The core of the algorithm is true to one in the paper but results may be slightly different than in the paper.
