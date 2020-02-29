@@ -53,7 +53,7 @@ Worst solution quality: 39
 
 ## Installation
 
-The library is written in C++. To compile usign the makefile type ```make``` and to run type ```hegel```.
+The library is written in C++. To compile usign the makefile type ```make main``` and to run type ```hegel```.
 
 ## License
 
