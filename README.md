@@ -32,7 +32,7 @@ Furthermore, this code is provided on an as-is basis under the [GNU GPL v3](LICE
 
 ```c++
 # To Compile:
-# /home/Desktop/hegel$ make 
+# /home/Desktop/hegel$ make main
 
 # To Run: ./hegel <Input_File> <Number_of_Runs> <Search_Time_Limit>
 # /home/Desktop/hegel$ make ./hegel input/scpa2.txt 2 5
