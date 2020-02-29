@@ -1,8 +1,8 @@
 # Hegel: Dialectic Search Solver for the Set Cover Problem
 
-This is a re-implementation of the Hegel Dialectic Search Solver for Set Cover Problem.
+This is a re-implementation of the Hegel Dialectic Search Solver for the Set Cover Problem.
 
-[The Set Cover Problem](https://en.wikipedia.org/wiki/Set_cover_problem) is a fundamental combinatorial optimization problem. At the time of its publication, Hegel solver found previously unknown solutions to the well-studied problem instances from the [OR-Lib Benchmarks](http://people.brunel.ac.uk/~mastjjb/jeb/orlib/scpinfo.html). 
+[The Set Cover Problem](https://en.wikipedia.org/wiki/Set_cover_problem) is a fundamental combinatorial optimization problem. At the time of its publication, the Hegel Solver found previously unknown solutions to well-studied problem benchmark instances from the [Operations Research Library (OR-Lib)](http://people.brunel.ac.uk/~mastjjb/jeb/orlib/scpinfo.html). 
 
 The algorithm was first introduced in:
 
