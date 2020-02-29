@@ -26,7 +26,7 @@ The algorithm was first introduced in:
 
 The exact code from that paper will never be released due to Brown University's policies. This version was created by Serdar Kadioglu after his doctorate thesis was completed and he was no longer a student of Brown. The core of the algorithm is true to one in the paper but results may be slightly different than in the paper.
 
-Furthermore, this code is provided on an as-is basis under the (GNU GPL v3 license)[LICENSE.md] and may only be used for **academic purposes**.
+Furthermore, this code is provided on an as-is basis under the (GNU GPL v3 license)[LICENSE] and may only be used for **academic purposes**.
 
 ## Quick Start
 
@@ -57,6 +57,6 @@ The library is written in C++. To compile usign the makefile type ```make``` and
 
 ## License
 
-Hegel is licensed under the [GNU GPL v3](LICENSE.md) and may only be used for **academic purposes**.
+Hegel is licensed under the [GNU GPL v3](LICENSE) and may only be used for **academic purposes**.
 
 
